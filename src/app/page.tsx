@@ -77,6 +77,7 @@ export default function Home() {
             <a href="#specifications" className="text-sm" style={{color:'#ffffff', opacity:'0.8'}}>Specs</a>
             <a href="#industries" className="text-sm" style={{color:'#ffffff', opacity:'0.8'}}>Industries</a>
             <a href="#faq" className="text-sm" style={{color:'#ffffff', opacity:'0.8'}}>FAQ</a>
+            <a href="/blog" className="text-sm" style={{color:'#ffffff', opacity:'0.8'}}>Blog</a>
             <a href="https://www.texasflange.com/contact-us/?ref=plateflanges" className="px-4 py-2 rounded-lg text-sm font-semibold" style={{background:'#38bdf8', color:'#0f172a'}}>Get a Quote</a>
           </nav>
         </div>
