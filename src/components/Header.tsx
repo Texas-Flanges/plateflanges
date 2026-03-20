@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50" style={{background:'#0f172a', borderBottomColor:'#334155', borderBottomWidth:'1px'}}>
       <div className="container-wide py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold" style={{color:'#38bdf8'}}>
+        <Link href="/" className="text-lg sm:text-2xl font-bold" style={{color:'#38bdf8'}}>
           Texas Flanges
         </Link>
         <nav className="hidden md:flex gap-8">

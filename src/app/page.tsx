@@ -97,7 +97,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="py-20 px-6 rv" style={{background:'#0f172a'}}>
+      <section id="about" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#0f172a'}}>
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold mb-6" style={{color:'#38bdf8'}}>About Plate Flanges</h2>
@@ -111,7 +111,7 @@ export default function Home() {
       </section>
 
       {/* SPECIFICATIONS */}
-      <section id="specifications" className="py-20 px-6 rv" style={{background:'#1a2332'}}>
+      <section id="specifications" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#1a2332'}}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center" style={{color:'#38bdf8'}}>Product Specifications</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -135,7 +135,7 @@ export default function Home() {
       </section>
 
       {/* INDUSTRIES */}
-      <section id="industries" className="py-20 px-6 rv" style={{background:'#0f172a'}}>
+      <section id="industries" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#0f172a'}}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center" style={{color:'#38bdf8'}}>Industries Served</h2>
           <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -149,7 +149,7 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="py-20 px-6 rv" style={{background:'#1a2332'}}>
+      <section id="faq" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#1a2332'}}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center" style={{color:'#38bdf8'}}>Frequently Asked Questions</h2>
           <details className="mb-4 rounded-lg shadow p-4 cursor-pointer group" style={{background:'#0f172a', borderColor:'#38bdf8', borderWidth:'1px'}}>
@@ -160,7 +160,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 text-center rv" style={{background:'linear-gradient(135deg, #0f172a, #1a2332)'}}>
+      <section className="py-10 sm:py-16 lg:py-20 px-6 text-center rv" style={{background:'linear-gradient(135deg, #0f172a, #1a2332)'}}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-bold mb-6" style={{color:'#ffffff'}}>Ready to Get Started?</h2>
           <p className="text-lg mb-8 max-w-xl mx-auto" style={{color:'#ffffff', opacity:'0.9'}}>Contact us for competitive pricing, technical specifications, and fast delivery on plate flanges.</p>
