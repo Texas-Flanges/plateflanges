@@ -105,7 +105,7 @@ export default function Home() {
             <p className="text-lg leading-relaxed mt-4" style={{color:'#ffffff', opacity:'0.85'}}>Plate flanges flame-cut or CNC-machined from certified plate material. Economical solution for low-pressure and non-code applications.</p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl" style={{borderColor:'#38bdf8', borderWidth:'2px'}}>
-            <img src="/plate-flange.jpg" alt="Plate flange - industrial pipe flange" width="600" height="400" style={{width:"100%",height:"300px",borderRadius:"10px",objectFit:"cover"}} />
+            <img src="/plate-flange.jpg" alt="Plate flange - industrial pipe flange" width="341" height="254" style={{width:"100%",maxWidth:"341px",height:"auto",borderRadius:"10px",margin:"0 auto",display:"block"}} />
           </div>
         </div>
       </section>
