@@ -37,7 +37,7 @@ export default function Home() {
       },{
       "@context":"https://schema.org",
       "@type":"FAQPage",
-      "mainEntity":[{"@type":"Question","name":"When should plate flanges be used instead of forged flanges?","acceptedAnswer":{"@type":"Answer","text":"Plate flanges are appropriate for low-pressure, non-code applications or for very large diameters where forgings are impractical. They should not be substituted for forged flanges in ASME pressure piping without engineering approval."}}]
+      "mainEntity":[{"@type":"Question","name":"When should plate flanges be used instead of forged flanges?","acceptedAnswer":{"@type":"Answer","text":"Plate flanges are appropriate for low-pressure, non-code applications or for very large diameters where forgings are impractical. They should not be substituted for forged flanges in ASME pressure piping without engineering approval."}},{"@type":"Question","name":"How available are plate flanges?","acceptedAnswer":{"@type":"Answer","text":"Often stock per AWWA specifications, usually from import origin for cost advantages. Some domestic is stock and short lead times are available given machining techniques for plate flanges versus forged flanges."}},{"@type":"Question","name":"What is the most popular plate standard?","acceptedAnswer":{"@type":"Answer","text":"People often select C207, but 150# pattern ring flanges with specified 1/2 inch thickness is also very common. C228 is also derived from C207 when considering a stainless plate option for colder applications or extreme environments."}}]
     }])}} />
 
       <style dangerouslySetInnerHTML={{__html: `
@@ -62,7 +62,7 @@ export default function Home() {
       <div className="sticky top-0 z-50 px-6 py-2" style={{background:'#0f172a', borderBottom:'1px solid #38bdf8'}}>
         <div className="max-w-7xl mx-auto flex items-center justify-between text-sm">
           <div style={{color:'#38bdf8'}}>📞 <a href="tel:281-484-8325" style={{color:'#38bdf8'}}>281-484-8325</a> | ✉️ <a href="mailto:sales@texasflange.com" style={{color:'#38bdf8'}}>sales@texasflange.com</a></div>
-          <span style={{color:'#ffffff'}}>Mon–Fri, 8 AM – 5 PM CST</span>
+          <span style={{color:'#ffffff'}}>Mon-Fri, 8 AM - 5 PM CST</span>
         </div>
       </div>
 
@@ -101,11 +101,25 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold mb-6" style={{color:'#38bdf8'}}>About Plate Flanges</h2>
-            <p className="text-lg leading-relaxed" style={{color:'#ffffff', opacity:'0.85'}}>We maintain one of the largest inventories of plate flanges. Every flange is manufactured to ASME, ANSI, and API standards with full material traceability and certification.</p>
+            <p className="text-lg leading-relaxed" style={{color:'#ffffff', opacity:'0.85'}}>We maintain one of the largest inventories of plate flanges. Every flange is manufactured to ASME, ANSI, and AWWA standards with full material traceability and certification.</p>
             <p className="text-lg leading-relaxed mt-4" style={{color:'#ffffff', opacity:'0.85'}}>Plate flanges flame-cut or CNC-machined from certified plate material. Economical solution for low-pressure and non-code applications.</p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl" style={{borderColor:'#38bdf8', borderWidth:'2px'}}>
-            <img src="https://images.unsplash.com/photo-1656312186359-a5d902b9fdfd?w=600&h=400&fit=crop&auto=format&q=80" alt="Plate Flanges - Industrial pipe flanges" width="600" height="400" style={{width:"100%",height:"300px",borderRadius:"10px",objectFit:"cover"}} />
+            <img src="/plate-flange.jpg" alt="Plate flange - industrial pipe flange" width="600" height="400" style={{width:"100%",height:"300px",borderRadius:"10px",objectFit:"cover"}} />
+          </div>
+        </div>
+      </section>
+
+      {/* WHAT ARE AWWA FLANGES? */}
+      <section className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#1a2332'}}>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6" style={{color:'#38bdf8'}}>What Are AWWA Flanges?</h2>
+          <div className="text-lg leading-relaxed" style={{color:'#ffffff', opacity:'0.85'}}>
+            <p className="mb-4">If API flanges are built for the punishing requirements of oil and gas, AWWA flanges are for service on the other end of the demand spectrum: much less stress and corrosion. Designed by the American Water Works Association, these flanges are built for lower-pressure applications - think 300 psi or less - where temperatures are ambient and whatever&apos;s flowing through the pipe isn&apos;t going to eat the metal alive. Most of the time that means well water or wastewater, but they also show up in slurry lines and plant piping where pressure requirements are minimal.</p>
+            <p className="mb-4">The governing spec here is <strong style={{color:'#38bdf8'}}>AWWA C207</strong>, which covers carbon steel rings and blinds. You&apos;ll typically see these in mild carbon steel or stainless, and they&apos;re almost always either a ring slip-on or blind disc style. No raised faces, no ring joints - just a flat face sealed with a rubber gasket. Simple, cost-effective, and they get the job done.</p>
+            <p className="mb-4">One thing worth knowing: AWWA flanges are increasingly being used in structural steel applications too, particularly when a project needs to mate or fill a gap between existing flanges. Their cost and weight profile makes them attractive for that kind of work.</p>
+            <p className="mb-4">On the dimensional side, C207 flanges are designed to play nice with other common standards. The OD and bolt pattern matches <strong style={{color:'#38bdf8'}}>B16.1 Class 125</strong>, and they&apos;ll also line up with <strong style={{color:'#38bdf8'}}>B16.5 Class 150</strong> up to 24&quot; and <strong style={{color:'#38bdf8'}}>B16.47 Series A</strong> up to 60&quot; NPS, although AWWA is available at even larger sizes. The main difference you&apos;ll notice is thickness, and the absence of a raised face or hub (unless you&apos;re dealing with a legacy system).</p>
+            <p>Material-wise, AWWA is a bit more flexible than ASME. C207 allows grades like <strong style={{color:'#38bdf8'}}>A36, A516-70, A181-60, and A105</strong> - all commercially abundant and easy to source - because the minimum yield and tensile requirements (32 ksi and 50 ksi) aren&apos;t as demanding. Many options are available as import stock, and domestic can be provided as well for USA government funded and municipal infrastructure related projects.</p>
           </div>
         </div>
       </section>
@@ -128,7 +142,7 @@ export default function Home() {
             <div className="rounded-xl p-8 shadow-lg text-center" style={{background:'#0f172a', borderColor:'#38bdf8', borderWidth:'1px'}}>
               <div className="mb-4 flex justify-center" dangerouslySetInnerHTML={{__html: `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M9 14l2 2 4-4"/></svg>`}} />
               <h3 className="font-bold text-lg mb-3" style={{color:'#38bdf8'}}>Standards</h3>
-              <p style={{color:'#ffffff', opacity:'0.8'}}>ASME B16.5, B16.47, API 605, MSS SP-44</p>
+              <p style={{color:'#ffffff', opacity:'0.8'}}>ASME B16.5, B16.47, AWWA C207, AWWA C228</p>
             </div>
           </div>
         </div>
@@ -155,6 +169,14 @@ export default function Home() {
           <details className="mb-4 rounded-lg shadow p-4 cursor-pointer group" style={{background:'#0f172a', borderColor:'#38bdf8', borderWidth:'1px'}}>
             <summary className="font-semibold text-lg list-none flex justify-between items-center" style={{color:'#38bdf8'}}>When should plate flanges be used instead of forged flanges?<span className="group-open:rotate-45 transition-transform text-2xl" style={{color:'#38bdf8'}}>+</span></summary>
             <p className="mt-3 leading-relaxed" style={{color:'#ffffff', opacity:'0.85'}}>Plate flanges are appropriate for low-pressure, non-code applications or for very large diameters where forgings are impractical. They should not be substituted for forged flanges in ASME pressure piping without engineering approval.</p>
+          </details>
+          <details className="mb-4 rounded-lg shadow p-4 cursor-pointer group" style={{background:'#0f172a', borderColor:'#38bdf8', borderWidth:'1px'}}>
+            <summary className="font-semibold text-lg list-none flex justify-between items-center" style={{color:'#38bdf8'}}>How available are plate flanges?<span className="group-open:rotate-45 transition-transform text-2xl" style={{color:'#38bdf8'}}>+</span></summary>
+            <p className="mt-3 leading-relaxed" style={{color:'#ffffff', opacity:'0.85'}}>Often stock per AWWA specifications, usually from import origin for cost advantages. Some domestic is stock and short lead times are available given machining techniques for plate flanges versus forged flanges.</p>
+          </details>
+          <details className="mb-4 rounded-lg shadow p-4 cursor-pointer group" style={{background:'#0f172a', borderColor:'#38bdf8', borderWidth:'1px'}}>
+            <summary className="font-semibold text-lg list-none flex justify-between items-center" style={{color:'#38bdf8'}}>What is the most popular plate standard?<span className="group-open:rotate-45 transition-transform text-2xl" style={{color:'#38bdf8'}}>+</span></summary>
+            <p className="mt-3 leading-relaxed" style={{color:'#ffffff', opacity:'0.85'}}>People often select C207, but 150# pattern ring flanges with specified 1/2&quot; thickness is also very common. C228 is also derived from C207 when considering a stainless plate option for colder applications or extreme environments.</p>
           </details>
         </div>
       </section>
@@ -206,7 +228,7 @@ export default function Home() {
         </div>
         <div className="max-w-6xl mx-auto mt-10 pt-6" style={{borderTopColor:'#38bdf8', borderTopWidth:'1px'}}>
           <p className="text-center text-sm" style={{color:'#ffffff', opacity:'0.6'}}>&copy; 2026 Plate Flanges &middot; All rights reserved.</p>
-          <p className="text-center text-sm mt-2" style={{color:'#38bdf8', opacity:'0.6'}}>Mon–Fri, 8 AM – 5 PM CST</p>
+          <p className="text-center text-sm mt-2" style={{color:'#38bdf8', opacity:'0.6'}}>Mon-Fri, 8 AM - 5 PM CST</p>
         </div>
       </footer>
     </>

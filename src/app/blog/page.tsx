@@ -24,8 +24,8 @@ export default async function BlogPage() {
       })}} />
       <section className="py-12" style={{background:'linear-gradient(135deg, #0f172a, #1e293b)'}}>
         <div className="container-wide">
-          <h1 className="text-4xl font-bold" style={{color:'#ffffff'}}>Blog</h1>
-          <p className="text-lg mt-2" style={{color:'#ffffff'}}>Technical insights and industry news</p>
+          <h1 className="text-4xl font-bold" style={{color:'#ffffff'}}>Blog / Collaborations</h1>
+          <p className="text-lg mt-2" style={{color:'#ffffff'}}>Technical insights and industry news from industry insiders with experience in real world plate applications</p>
         </div>
       </section>
 
