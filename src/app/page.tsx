@@ -43,7 +43,7 @@ export default function Home() {
       <style dangerouslySetInnerHTML={{__html: `
         /* Hide old layout header */
         body > header.border-gray-200, header.border-gray-200 { display: none !important; }
-        .rv { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .rv { opacity: 1; transform: none; }
         .rv.vis { opacity: 1; transform: translateY(0); }
       `}} />
 
@@ -61,7 +61,7 @@ export default function Home() {
       {/* INFO BAR */}
       <div className="sticky top-0 z-50 px-6 py-2" style={{background:'#0f172a', borderBottom:'1px solid #38bdf8'}}>
         <div className="max-w-7xl mx-auto flex items-center justify-between text-sm">
-          <div style={{color:'#38bdf8'}}>📞 <a href="tel:281-484-8325" style={{color:'#38bdf8'}}>281-484-8325</a> | ✉️ <a href="mailto:sales@texasflange.com" style={{color:'#38bdf8'}}>sales@texasflange.com</a></div>
+          <div style={{color:'#38bdf8'}}>ð <a href="tel:281-484-8325" style={{color:'#38bdf8'}}>281-484-8325</a> | âï¸ <a href="mailto:sales@texasflange.com" style={{color:'#38bdf8'}}>sales@texasflange.com</a></div>
           <span style={{color:'#ffffff'}}>Mon-Fri, 8 AM - 5 PM CST</span>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function Home() {
       <header className="sticky top-8 z-49 backdrop-blur-md border-b" style={{background:'#0f172a', borderBottomColor:'#38bdf8'}}>
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div>
-            <a href="/" className="text-xl font-bold" style={{color:'#38bdf8'}}>◆ Plate Flanges</a>
+            <a href="/" className="text-xl font-bold" style={{color:'#38bdf8'}}>â Plate Flanges</a>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <a href="#about" className="text-sm" style={{color:'#ffffff', opacity:'0.8'}}>About</a>
