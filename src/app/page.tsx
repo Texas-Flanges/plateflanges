@@ -222,7 +222,7 @@ export default function Home() {
           <div>
             <h4 className="font-semibold mb-3" style={{color:'#38bdf8'}}>Related</h4>
             <div className="flex flex-col gap-2 text-sm" style={{opacity:'0.8'}}>
-              <a href="https://www.texasflange.com?ref=plateflanges" style={{color:'#ffffff'}}>texasflange.com</a>
+              <a href="https://texasflange.com/plate-flanges/?ref=plateflanges" style={{color:'#ffffff'}}>texasflange.com</a>
             </div>
           </div>
         </div>
